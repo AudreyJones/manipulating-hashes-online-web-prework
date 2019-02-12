@@ -27,7 +27,6 @@ def first_challenge
 
 
 binding.pry
-        value.delete_if {|attribute, value| value == "strawberry"}
 
 
       end
