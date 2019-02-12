@@ -23,13 +23,12 @@ def first_challenge
       puts "#{attribute}: #{value}"
 
       if (attribute == :favorite_icecream_flavors)
-<<<<<<< HEAD
         value.delete_if {|value| value == "strawberry"}
 
-=======
+
   binding.pry
         value.delete_if {|attribute, value| value == "strawberry"}
->>>>>>> 5ab7eebfff545392defd6573087b7e692b091c2a
+
 
       end
     end
